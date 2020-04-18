@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=ImprovedbitCoin
+Comment=ImprovedbitCoin P2P Cryptocurrency
+Exec=improvedbitcoin-qt %u
+Terminal=false
+Type=Application
+Icon=improvedbitcoin128
+MimeType=x-scheme-handler/improvedbitcoin;
+Categories=Office;Finance;
+Name[en_US]=improvedbitcoin-qt.desktop

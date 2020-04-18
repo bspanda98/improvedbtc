@@ -1,0 +1,26 @@
+[Unit]
+Description=ImprovedbitCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=improvedbitcoin
+Group=improvedbitcoin
+
+Type=forking
+PIDFile=/var/lib/improvedbitcoind/improvedbitcoind.pid
+
+ExecStart=/usr/bin/improvedbitcoind -daemon -pid=/var/lib/improvedbitcoind/improvedbitcoind.pid \
+          -conf=/etc/improvedbitcoin/improvedbitcoin.conf -datadir=/var/lib/improvedbitcoind
+
+ExecStop=-/usr/bin/improvedbitcoin-cli -conf=/etc/improvedbitcoin/improvedbitcoin.conf \
+         -datadir=/var/lib/improvedbitcoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
