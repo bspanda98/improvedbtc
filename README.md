@@ -9,7 +9,7 @@ ImprovedbitCoin Core is a decentralized, peer-to-peer cryptocurrency with a prim
 #
 
 #### Block times: - *1 minute* 
-#### Maximum supply: - *15,000,000 (15 million) IBTC*
+#### Maximum supply: - *21,000,000 (21 million) IBTC*
 #### Consensus mechanism: - *Proof-of-Stake (80% masternodes, 20% stakers)*
 #### Algorithm: - *Quark-hash* 
 #### Masternode collateral - *5,000 IBTC*  
@@ -19,8 +19,8 @@ ImprovedbitCoin Core is a decentralized, peer-to-peer cryptocurrency with a prim
 
 ## Block reward breakdown
 
-#### Premine : 400,000 IBTC
-#### Block 201 - 10,000 - 50 IBTC
+#### Premine : 7000,000 IBTC
+#### Block 100 - 10,000 - 50 IBTC
 #### Block 10,001 - 100,000 - 20 IBTC
 #### Block 100,001 - 500,000 - 10 IBTC
 #### Block 500,001 - 1,000,000 - 5 IBTC
